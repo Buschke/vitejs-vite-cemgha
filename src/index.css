@@ -10,6 +10,10 @@
 @tailwind utilities;
 
 body {
+  @font-face {
+    font-family: 'Calendas-Plus-Regular-Webfont';
+    src: url('https://github.com/Buschke/vitejs-vite-cemgha/blob/master/Calendas-Plus-Regular-Webfont/calendas_plus-webfont.woff2');
+  }
   /* font-feature-settings: 'font-variant-ligatures'; */
   font-variant: common-ligatures discretionary-ligatures contextual diagonal-fractions;
   font-variant-ligatures: discretionary-ligatures;
